@@ -80,7 +80,7 @@ $(document).ready(function(){
         $('.mCSB_scrollTools').toggleClass('mCSB_scrollTools-left');
         setTimeout(function() {
             $("#mcs_container").mCustomScrollbar("scrollTo", "#right-side",{
-                scrollInertia:500,
+                scrollInertia:300,
                 callbacks:false
             });
         }, 350);
