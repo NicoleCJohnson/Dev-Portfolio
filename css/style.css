@@ -1082,11 +1082,12 @@ sup {
   right: calc(.8% - 15px) !important;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 600px) {
+@media only screen and (min-width: 300px) and (max-width: 900px) {
   .mCSB_scrollTools {
     /* Scrollbar */
+    display: none;
     position: absolute;
-    width: 12px;
+    width: 14px;
     height: auto;
     left: auto;
     top: 0;
@@ -1103,7 +1104,8 @@ sup {
     transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
   }
   .mCSB_scrollTools .mCSB_draggerRail {
-    width: 12px;
+    display: none;
+    width: 14px;
     height: 100%;
     margin: 0;
     -webkit-border-radius: 0;
@@ -1116,8 +1118,9 @@ sup {
   }
   .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
     /* the dragger element */
+    display: none;
     position: relative;
-    width: 12px;
+    width: 14px;
     height: 100%;
     margin: 0 auto;
     -webkit-border-radius: 0;
@@ -1127,11 +1130,8 @@ sup {
     text-align: center;
   }
   .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    display: none;
     background-color: #7adfc7;
-  }
-
-  .display-4 {
-    padding-left: 60px !important;
   }
 }
 
@@ -1181,9 +1181,9 @@ img, svg {
   padding-right: 0;
 }
 
-@media only screen and (min-width: 500px) and (max-width: 820px) {
+@media only screen and (min-width: 300px) and (max-width: 990px) {
   .display-4 {
-    padding-left: 140px !important;
+    text-align: center;
   }
 }
 
@@ -1549,6 +1549,7 @@ footer p {
 
   .cd-words-wrapper {
     width: 100% !important;
+    margin-top: 10px;
   }
 
   .cd-headline.rotate-2 .cd-words-wrapper b {
