@@ -83,7 +83,7 @@ $(document).ready(function(){
                 scrollInertia:300,
                 callbacks:false
             });
-        }, 350);
+        }, 250);
     });
 
     /* ------------------------------------- */
