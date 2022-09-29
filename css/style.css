@@ -1218,28 +1218,6 @@ img, svg {
   }
 }
 
-.linkedin {
-  width: 40%;
-}
-
-@media only screen and (min-width: 500px) and (max-width: 765px) {
-  .linkedin {
-    width: 55%;
-  }
-}
-
-@media only screen and (min-width: 401px) and (max-width: 499px) {
-  .linkedin {
-    width: 65%;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .linkedin {
-    width: 85%;
-  }
-}
-
 .behance {
   width: 35%;
 }
