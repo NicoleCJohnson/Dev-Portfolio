@@ -1090,7 +1090,7 @@ sup {
   .mCSB_scrollTools {
     /* Scrollbar */
     position: absolute;
-    width: 12.5px;
+    width: 12px;
     height: auto;
     left: auto;
     top: 0;
@@ -1107,7 +1107,7 @@ sup {
     transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
   }
   .mCSB_scrollTools .mCSB_draggerRail {
-    width: 12.5px;
+    width: 12px;
     height: 100%;
     margin: 0;
     -webkit-border-radius: 0;
@@ -1121,7 +1121,7 @@ sup {
   .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
     /* the dragger element */
     position: relative;
-    width: 12.5px;
+    width: 12px;
     height: 100%;
     margin: 0 auto;
     -webkit-border-radius: 0;
